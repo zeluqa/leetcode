@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,8 +37,9 @@ class TreeNode {
     }
 }
 
-class Solution {
-    public static List<Integer> countSmaller(int[] nums) {
+public class SmallerAfterSelf {
+    
+	public static List<Integer> countSmaller(int[] nums) {
         List<Integer> list = new ArrayList<Integer>();
     	if (nums.length > 0) {
             TreeNode root = new TreeNode(nums[nums.length-1]);
@@ -51,18 +54,16 @@ class Solution {
     	}
         return list;    		
     }
-}
-
-public class SmallerAfterSelf {
-
+	
+	//For testcases
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(Solution.countSmaller(new int[]{5,2,6,1}));
-		System.out.println(Solution.countSmaller(new int[]{}));
-		System.out.println(Solution.countSmaller(new int[]{2}));
-		System.out.println(Solution.countSmaller(new int[]{3,1}));
+		System.out.println(countSmaller(new int[]{5,2,6,1}));
+		System.out.println(countSmaller(new int[]{}));
+		System.out.println(countSmaller(new int[]{2}));
+		System.out.println(countSmaller(new int[]{3,1}));
 		int[] arr = new int[] {26,78,27,100,33,67,90,23,66,5,38,7,35,23,52,22,83,51,98,69,81,32,78,28,94,13,2,97,3,76,99,51,9,21,84,66,65,36,100,41};
-		System.out.println(Solution.countSmaller(arr));
+		System.out.println(countSmaller(arr));
 	}
 
 }

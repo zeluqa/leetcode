@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/implement-trie-prefix-tree/
+
 class TrieNode {
     private final int R = 26; //26 possible links/26 alphabet characters
     private TrieNode[] links; //Linked nodes
