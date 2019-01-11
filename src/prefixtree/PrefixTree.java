@@ -1,3 +1,4 @@
+package prefixtree;
 //https://leetcode.com/problems/implement-trie-prefix-tree/
 
 class TrieNode {

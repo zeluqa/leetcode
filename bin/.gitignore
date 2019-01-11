@@ -1,9 +1,5 @@
-/BackspaceStringCompare.class
-/PalindromicSubstring.class
-/PrefixTree.class
-/SmallerAfterSelf.class
-/TreeNode.class
-/Trie.class
-/TrieNode.class
-/MaximumDepthTree.class
-/MaximumDepthTree$Node.class
+/backspacestringcompare/
+/maximumdepthtree/
+/palindromicsubstring/
+/prefixtree/
+/smallerafterself/

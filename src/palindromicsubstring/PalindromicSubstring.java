@@ -1,3 +1,4 @@
+package palindromicsubstring;
 //https://leetcode.com/problems/palindromic-substrings
 
 public class PalindromicSubstring {
